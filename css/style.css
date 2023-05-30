@@ -1,0 +1,33 @@
+.flex-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 400px;
+    border: 10px solid rgba(47,47,47,1);
+    border-radius: 4px;
+    background-color: black;
+    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    gap: 2px;
+}
+
+#display {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    background-color: #b2b9b7;
+    padding: 5px;
+    font-size: 5.5em;
+}
+
+.zero{
+    grid-column: span 2;
+}
+button {
+    margin: 1px;
+    border-radius: 5%;
+    border: none;
+    font-weight: initial;
+    font-size: 2em;
+    font-family: monospace;
+    color: black;
+}
