@@ -19,7 +19,7 @@
     font-size: 5.5em;
 }
 
-.zero{
+#zero{
     grid-column: span 2;
 }
 button {
